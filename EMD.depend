@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1508692998 source:c:\users\administrator\desktop\emd\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	"emd.h"
+
+1508692992 c:\users\administrator\desktop\emd\emd.h
+	<queue>
+	<math.h>
+	"Graph.h"
+
+1508692992 c:\users\administrator\desktop\emd\graph.h
+	<vector>
+	<algorithm>
+	"Util.h"
+
+1508565990 c:\users\administrator\desktop\emd\util.h
+	<math.h>
+	<queue>
+
+1509701575 source:c:\users\dell\desktop\emd\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	"emd.h"
+
+1509701618 c:\users\dell\desktop\emd\emd.h
+	<queue>
+	<math.h>
+	"Graph.h"
+	<x86intrin.h>
+	<immintrin.h>
+	<xmmintrin.h>
+
+1509427500 c:\users\dell\desktop\emd\graph.h
+	<vector>
+	<algorithm>
+	"Util.h"
+
+1509436229 c:\users\dell\desktop\emd\util.h
+	<math.h>
+	<queue>
+
+1507910778 source:c:\users\administrator\desktop\emd3.0\emd\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	"emd.h"
+
+1507885087 c:\users\administrator\desktop\emd3.0\emd\emd.h
+	<queue>
+	"Graph.h"
+
+1507910596 c:\users\administrator\desktop\emd3.0\emd\graph.h
+	<vector>
+	<algorithm>
+	"Util.h"
+
+1507910476 c:\users\administrator\desktop\emd3.0\emd\util.h
+	<math.h>
+	<queue>
+
