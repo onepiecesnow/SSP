@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
 
-    int num = 5001;
+    int num = 13;
     int bin = 256;
 
     //output file
@@ -90,9 +90,9 @@ int main(){
         clock_t start, end;
         start = clock();
 
-        e = calEMD(&s1,&s2);
-       // e = calSSEEMD(&s1,&s2);
-       // e = calAVXEMD(&s1,&s2);
+        // e = calEMD(&s1,&s2);
+        // e = calSSEEMD(&s1,&s2);
+        e = calAVXEMD(&s1,&s2);
 
         end = clock();
 
