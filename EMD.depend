@@ -21,7 +21,7 @@
 	<math.h>
 	<queue>
 
-1509701575 source:c:\users\dell\desktop\emd\main.cpp
+1514261759 source:c:\users\dell\desktop\emd\main.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -29,20 +29,21 @@
 	<iomanip>
 	"emd.h"
 
-1509701618 c:\users\dell\desktop\emd\emd.h
+1513846289 c:\users\dell\desktop\emd\emd.h
 	<queue>
 	<math.h>
 	"Graph.h"
+	<iostream>
 	<x86intrin.h>
 	<immintrin.h>
 	<xmmintrin.h>
 
-1509427500 c:\users\dell\desktop\emd\graph.h
+1512729472 c:\users\dell\desktop\emd\graph.h
 	<vector>
 	<algorithm>
 	"Util.h"
 
-1509436229 c:\users\dell\desktop\emd\util.h
+1512729473 c:\users\dell\desktop\emd\util.h
 	<math.h>
 	<queue>
 
@@ -66,4 +67,13 @@
 1507910476 c:\users\administrator\desktop\emd3.0\emd\util.h
 	<math.h>
 	<queue>
+
+1514274134 source:c:\users\dell\desktop\emd\emd.cpp
+	"emd.h"
+
+1514260128 source:c:\users\dell\desktop\emd\graph.cpp
+	"Graph.h"
+
+1512729470 source:c:\users\dell\desktop\emd\util.cpp
+	"Util.h"
 
