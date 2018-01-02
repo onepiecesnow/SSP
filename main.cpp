@@ -18,11 +18,11 @@ int main(){
     ofstream outfile("Emd.txt");
     ofstream outfile2("time.txt");
     if(!outfile){
-        cerr<<"Open EMDoutfile Failed!"<<endl;
+        cerr<<"Open EMDoutfile1 Failed!"<<endl;
         exit(0);
     }
     if(!outfile2){
-        cerr<<"Open EMDoutfile1 Failed!"<<endl;
+        cerr<<"Open EMDoutfile2 Failed!"<<endl;
         exit(0);
     }
     double avrTime = 0;
@@ -44,7 +44,7 @@ int main(){
 
      //input image1 data
         char infilename1[50] ;
-		sprintf(infilename1, "C:\\Users\\dell\\Desktop\\EMD\\Corel-LAB\\image_data_%d.txt", index_one );
+	sprintf(infilename1, "C:\\Users\\dell\\Desktop\\EMD\\Corel-LAB\\image_data_%d.txt", index_one );
         ifstream infile1(infilename1);
         if(!infile1){
            cerr<<"Open infile1 Failed!"<<endl;
@@ -53,7 +53,7 @@ int main(){
 
      //input image2 data
         char infilename2[50] ;
-		sprintf(infilename2, "C:\\Users\\dell\\Desktop\\EMD\\Corel-LAB\\image_data_%d.txt", index_two );
+	sprintf(infilename2, "C:\\Users\\dell\\Desktop\\EMD\\Corel-LAB\\image_data_%d.txt", index_two );
         ifstream infile2(infilename2);
         if(!infile2){
            cerr<<"Open infile2 Failed!"<<endl;
