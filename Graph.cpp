@@ -119,37 +119,15 @@ vertex graph:: newVertex(float weight, int index){
     return v;
 }
 graph::~graph(){
-    int Size0 = this->adj[0].size();
-
-    for(int j =0; j<Size0;j++){
-            delete this->adj[0][j];
-            this->adj[0][j] = NULL;
-
-
-        }
-
-    for(int i =  1; i < num_vertices-1; i++){
-
-        if(this->vertice[i].weight == 0){
-            continue;
-        }
-
-        int Size = this->adj[i].size();
-        for(int j =0; j<Size;j++){
-            delete this->adj[i][j];
-            this->adj[i][j] = NULL;
-
-
+    
+    for( int i =0 ; i<num_vertices; i++){
+        int j = this->adj[i].size();
+        for (int k = 0 ; k< j; k++){
+            delete this->adj[i][k];
+            this->adj[i][k] = NULL;
         }
     }
-     int Sizet = this->adj[num_vertices-1].size();
-    for(int j =0; j<Sizet;j++){
-            delete this->adj[num_vertices-1][j];
-            this->adj[num_vertices-1][j] = NULL;
 
-        }
-
-    // delete this->adj;
-    // this->adj = NULL;
-     //cout<<"destruction called"<<endl;
+     delete[] this->adj;
+     this->adj = NULL;
 }
